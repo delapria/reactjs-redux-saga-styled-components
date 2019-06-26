@@ -4,13 +4,16 @@ import { Spinner } from '../Loading/styles';
 
 export const Container = styled.aside`
   height: 100%;
-  width: 200px;
-  background: #121212;
+  width: 230px;
+  /* background: #121212; */
+  background-color: rgba(0, 0, 0, 0.8);
   color: #b3b3b3;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: auto;
+  will-change: transform;
 
   > div {
     padding: 25px;
